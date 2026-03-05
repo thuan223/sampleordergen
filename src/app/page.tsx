@@ -50,6 +50,7 @@ export default function OrderPage() {
         merchantOrderId: formData.merchantOrderId,
         amount: parseInt(formData.amount, 10),
         serviceCode: formData.serviceCode,
+        settlementType: "TWO_STEP",
         ipnUrl: formData.ipnUrl,
         uiCallbackUrl: formData.uiCallbackUrl,
         extraData: parsedExtra
